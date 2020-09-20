@@ -1,11 +1,33 @@
 body {
   display: flex;
+  background-color: $black;
+  color: white;
 }
 
 .leftSection {
-  flex: 1;
+  width: 400px;
 }
 
 .rightSection {
-  flex: 2;
+  flex: 1;
+}
+
+// *************
+// typography
+// *************
+
+header {
+  i {
+    font-size: 4rem;
+    color: white;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
+li,
+a,
+button {
+  color: white;
 }
