@@ -439,10 +439,14 @@ header h2 {
 
 .leftSection .socials a {
   color: white;
+  font-size: 2rem;
 }
 
-.leftSection .socials li a {
-  font-size: 2rem;
+.leftSection .socials i:hover:before,
+.leftSection .socials a:focus i:before {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  display: block;
 }
 
 .leftSection .fa-camera {
@@ -460,5 +464,9 @@ header h2 {
 
 .leftSection .createdBy a {
   font-size: 1rem;
+}
+
+.leftSection a:hover, .leftSection a:focus {
+  color: white;
 }
 /*# sourceMappingURL=styles.css.map */

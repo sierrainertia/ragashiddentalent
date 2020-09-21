@@ -47,10 +47,13 @@ header {
 
     a {
       color: white;
+      font-size: 2rem;
     }
 
-    li a {
-      font-size: 2rem;
+    i:hover:before,
+    a:focus i:before {
+      transform: scale(1.5);
+      display: block;
     }
   }
 
@@ -68,6 +71,13 @@ header {
 
     a {
       font-size: 1rem;
+    }
+  }
+
+  a {
+    &:hover,
+    &:focus {
+      color: white;
     }
   }
 }
