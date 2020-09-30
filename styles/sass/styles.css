@@ -401,6 +401,12 @@ header h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: -webkit-sticky;
+  /* Required for Safari */
+  position: sticky;
+  top: 0;
+  left: 0;
+  height: 100vh;
 }
 
 .leftSection .navBar {
@@ -468,5 +474,12 @@ header h2 {
 
 .leftSection a:hover, .leftSection a:focus {
   color: white;
+}
+
+.hero {
+  background-image: url("http://placekitten.com/600/600");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 /*# sourceMappingURL=styles.css.map */

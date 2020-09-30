@@ -21,6 +21,11 @@ header {
 
 .leftSection {
   display: flex;
+  position: -webkit-sticky; /* Required for Safari */
+  position: sticky;
+  top: 0;
+  left: 0;
+  height: 100vh;
 
   .navBar {
     display: flex;
