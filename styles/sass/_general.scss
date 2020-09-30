@@ -22,6 +22,12 @@ h1 {
   line-height: 1.5;
 }
 
+h3 {
+  font-family: $headerFont;
+  font-size: 2rem;
+  margin-top: 50px;
+}
+
 li,
 a,
 button {

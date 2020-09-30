@@ -1,3 +1,4 @@
+@charset "UTF-8";
 a,
 abbr,
 acronym,
@@ -363,6 +364,12 @@ h1 {
   line-height: 1.5;
 }
 
+h3 {
+  font-family: "Lustria", serif;
+  font-size: 2rem;
+  margin-top: 50px;
+}
+
 li,
 a,
 button {
@@ -481,5 +488,28 @@ header h2 {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+}
+
+.hero blockquote {
+  width: 500px;
+  color: white;
+  padding: 0.5em 10px;
+  font-size: 2.5rem;
+  quotes: "“" "”" "‘" "’";
+}
+
+.hero blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+.hero blockquote p {
+  display: inline;
+  color: #0c0910;
+  font-size: 1.3rem;
 }
 /*# sourceMappingURL=styles.css.map */
