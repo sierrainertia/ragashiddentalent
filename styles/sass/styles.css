@@ -490,16 +490,18 @@ header h2 {
   height: 100vh;
 }
 
-.hero blockquote {
+blockquote {
+  margin-top: 50px;
   width: 500px;
   color: white;
   padding: 0.5em 10px;
   font-size: 2.5rem;
   quotes: "“" "”" "‘" "’";
+  font-family: "Lustria", serif;
 }
 
-.hero blockquote:before {
-  color: #ccc;
+blockquote:before {
+  color: white;
   content: open-quote;
   font-size: 4em;
   line-height: 0.1em;
@@ -507,9 +509,9 @@ header h2 {
   vertical-align: -0.4em;
 }
 
-.hero blockquote p {
+blockquote p {
   display: inline;
-  color: #0c0910;
+  color: #999;
   font-size: 1.3rem;
 }
 /*# sourceMappingURL=styles.css.map */
